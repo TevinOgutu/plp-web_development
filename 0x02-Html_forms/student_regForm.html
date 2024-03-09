@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Student Registration Portal</title>
+</head>
+<body>
+   <h1>Student Registration</h1>
+   <form>
+   	<label for="name">Name:</label>
+   	<input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+   	<label for="dob">Date of Birth:</label>
+   	<input type="date" id="dob" name="dob" required><br><br>
+
+   	<label for="gender">Gender:</label>
+   	<input type="radio" id="male" name="gender" value="male" required>
+   	<label for="male">Male</label>
+   	<input type="radio" id="female" name="gender" value="female" required>
+   	<label for="female">Female</label><br><br>
+
+   	<label for="address">Address:</label>
+   	<textarea id="address" name="address" required></textarea><br><br>
+
+   	<label for="telephone">Telephone:</label>
+   	<input type="tel" id="telephone" name="telephone" placeholder="+254733221100" required><br><br>
+
+   	<label for="email">Email Address:</label>
+   	<input type="email" id="email" name="email" required><br><br>
+
+   	<label for="course">Course:</label>
+   	<select id="course" name="course" required>
+   		<option value="">Select a course</option>
+   		<option value="computer-science">Computer Science</option>
+   		<option value="mathematics">Mathematics</option>
+   		<option value="web development">Web development</option>
+   		<option value="python Programming">Python Programming</option>
+        <option value="CCNA">CCNA</option>
+   	</select><br><br>
+
+    <button type="submit" value="Register">Register</button>
+    <button type="reset" value="Cancel">Cancel</button>
+   </form>
+</body>
+</html>
